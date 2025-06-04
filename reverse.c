@@ -3,7 +3,7 @@
 
 int main() {
     int num, reversed = 0, remainder;
-
+    printf("Mahesh Kumar Shrestha\n");
     // Input from user
     printf("Enter an integer: ");
     scanf("%d", &num);

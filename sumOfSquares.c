@@ -4,7 +4,7 @@
 int main() {
     int n, i;
     int sum = 0;
-
+    printf("Mahesh Kumar Shrestha\n");
     // Take input from user
     printf("Enter a positive integer n: ");
     scanf("%d", &n);
