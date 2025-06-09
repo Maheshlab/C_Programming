@@ -2,7 +2,7 @@
 
 int main() {
     int arr[100], n, i, j, temp;
-
+    printf("Mahesh Kumar Shrestha\n");
     printf("Enter the number of elements: ");
     scanf("%d", &n);
 
