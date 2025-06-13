@@ -11,7 +11,7 @@ int main()
 	
 	for(i=0; i<=100; i=i+2)
 	{
-		printf("%d\n", i);
+		printf("%d\t", i);
 	}
 	return 0;
 }
