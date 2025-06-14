@@ -12,6 +12,7 @@ int main(){
 	div= x / y;
 	mod= x % y;
 	
+	//Result
 	printf("Additon of two number is:%d\n", add);
 	printf("Subtraction of two number is:%d\n", sub);
 	printf("Multiplication of two number is:%d\n", mul);
