@@ -17,7 +17,7 @@ int main() {
         n++;
     }
 
-    originalNumber = number;
+    originalNumber = number; 
 
     // Compute sum of digits raised to the power n
     while (originalNumber != 0) {

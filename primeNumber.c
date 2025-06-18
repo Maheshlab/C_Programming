@@ -1,4 +1,4 @@
-//WAP that finds whether the given number is prime or not using for loop.
+ //WAP that finds whether the given number is prime or not using for loop.
 #include <stdio.h>
 
 int main() {

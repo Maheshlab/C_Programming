@@ -16,7 +16,7 @@ int main() {
     } else {
         // For loop to calculate factorial
         for (i = 1; i <= number; i++) {
-            factorial = factorial * i;
+            factorial = factorial * i; 
         }
 
         // Output the result
