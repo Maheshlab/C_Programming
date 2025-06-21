@@ -1,35 +1,26 @@
-#include <stdio.h>
-
-int main() {
-    int arr[100], n, i, j, temp;
-    printf("Mahesh Kumar Shrestha\n");
-    printf("Enter the number of elements: ");
-    scanf("%d", &n);
-
-    printf("Enter %d numbers:\n", n);
-    for (i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-
-    // Bubble Sort
-    for (i = 0; i < n-1; i++) {
-        for (j = 0; j < n-i-1; j++) {
-            if (arr[j] > arr[j+1]) {
-                // Swap elements
-                temp = arr[j];
-                arr[j] = arr[j+1];
-                arr[j+1] = temp;
-            }
-        }
-    }
-
-    // Print sorted array
-    printf("\nSorted array in ascending order:\n");
-    for (i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
-
-    return 0;
+//Sorting
+#include<stdio.h>
+void main()
+{
+int number[100], i, j, n, temp;
+printf("How many numbers you want to sort?:\t");
+scanf("%d", &n);
+for(i=0;i<n;i++)
+scanf("%d", &number[i]);
+for(i=0;i<n-1;i++)
+{
+for(j=i+1;j<n;j++)
+{
+if(number[i]>number[j])
+{
+temp=number[i];
+number[i]=number[j];
+number[j]=temp;
 }
-
+}
+}
+printf("The numbers in ascending order are:\n");
+for(i=0;i<n;i++)
+printf("\t%d", number[i]);
+getch();
+}
