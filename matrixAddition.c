@@ -1,7 +1,7 @@
 //Write a program to add elements of two 3X3 matrix
 #include<stdio.h>
 #include<conio.h>
-main ()
+int main ()
 {
 int a[3][3],b[3][3],c[3][3],i,j;
 printf("Mahesh Kumar Shrestha\n");
@@ -37,5 +37,5 @@ printf("%d\t",c[i][j]);
 printf("\n");
 
 }
-getch();
+return 0;
 }
