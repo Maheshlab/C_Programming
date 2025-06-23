@@ -1,4 +1,4 @@
-//Write a program to add elements of two 3X3 matrix
+//Write a program to subtract elements of two 3X3 matrix
 #include<stdio.h>
 #include<conio.h>
 main ()
