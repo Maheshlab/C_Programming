@@ -1,11 +1,11 @@
 //Write a program to subtract elements of two 3X3 matrix
 #include<stdio.h>
 #include<conio.h>
-main ()
+ int main ()
 {
 int a[3][3],b[3][3],c[3][3],i,j;
 printf("Mahesh Kumar Shrestha\n");
-printf("Enter the elements of first matrix\n");
+printf("Enter the elements of first matrix:\n");
 for(i=0;i<3;i++)
 {
 for(j=0;j<3;j++)
@@ -15,7 +15,7 @@ scanf("%d",&a[i][j]);
 
 }
 }
-printf("Enter the elements of second matrix\n");
+printf("Enter the elements of second matrix:\n");
 for(i=0;i<3;i++)
 {
 for(j=0;j<3;j++)
