@@ -1,16 +1,22 @@
-#include <stdio.h> //COMBINING STRINGS
-#include <conio.h>
-void main()
+#include <stdio.h>    // Changed from string.h to stdio.h for printf/scanf
+#include <string.h>   // Added for strcat
+#include <conio.h>    // Added for getch (non-standard, used in some compilers)
+
+int main()            // Changed void main() to int main()
 {
-int i, j;
-char first_name[7]="Ramesh" ;
-char last_name[9]="Adhikari";
-char name[16];
-for(i=0;first_name[i]!='\0';i++)
-name[i]=first_name[i];
-name[i]=' '; //name[6] i.e i=6
-for(j=0;last_name[j]!='\0';j++)
-name[i+j+1]=last_name[j];
-name[i+j+1]='\0';
-printf("%s", name);
-getch(); }
+    char string1[30], string2[30];
+    char *value;      // Added declaration for value
+    
+    printf("Mahesh Kumar Shrestha\n");
+    printf("Enter the first string:\n");
+    scanf("%s", string1);
+    
+    printf("Enter the second string:\n");
+    scanf("%s", string2);
+    
+    value = strcat(string1, string2);    // Correct assignment
+    printf("The combined string is: %s\n", value);  // Added %s format specifier and \n
+    
+    getch();          // Note: getch() is non-standard, consider using getchar() instead
+    return 0;         // Added return statement for main
+}
