@@ -5,9 +5,7 @@
 int main()
 {
 	float radius , area, circumference;
-	
-	printf("Mahesh Kumar Shrestha\n");
-	
+		
 	//Getting user Input 
 	printf("Enter radius:\n");
 	scanf("%f", &radius);
