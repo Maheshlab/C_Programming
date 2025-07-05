@@ -3,7 +3,7 @@
 
 int main() {
     int n, count = 0;
-    printf("Mahesh Kumar Shrestha\n");
+    
     // Input from user
     printf("Enter a starting number for the Hailstone series: ");
     scanf("%d", &n);

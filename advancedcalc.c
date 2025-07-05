@@ -6,8 +6,6 @@ int main()
 	int sum, sub, mul, firstNumber, secondNumber;
 	float div;
 	
-	printf("Mahesh Kumar Shrestha\n");
-	
 	//Getting User Input
 	printf("Enter first number:\n");
 	scanf("%d", &firstNumber);

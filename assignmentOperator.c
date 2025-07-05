@@ -3,7 +3,7 @@
 int main()
 {
 int x = 100;
-printf("Mahesh Kumar Shrestha\nRoll no. 25\n");
+
 printf("Value of x is %d\n", x); //100
 x += 100;
 printf("Value of x is %d\n", x); //200

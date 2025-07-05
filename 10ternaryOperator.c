@@ -7,7 +7,6 @@ condition ? stat if true : stat if false
 int main()
 {
 	int age;
-	printf("Mahesh Kumar Shrestha\n");
 	printf("Enter your age:\n");
 	scanf("%d", &age);
 	

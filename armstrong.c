@@ -4,7 +4,7 @@
 
 int main() {
     int number, originalNumber, remainder, result = 0, n = 0;
-    printf("Mahesh Kumar Shrestha\n");      
+    printf("Mahesh Kumar Shrestha\n");     
     // Input from user
     printf("Enter an integer: ");
     scanf("%d", &number);

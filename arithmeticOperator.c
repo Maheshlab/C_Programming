@@ -3,8 +3,6 @@ int main(){
 	int x= 40, y=25;
 	int add, mul, div, sub, mod;
 	
-	printf("Mahesh Kumar Shrestha\n");
-	
 	//Calculation
 	add= x + y;
 	sub= x - y;

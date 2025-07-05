@@ -4,8 +4,7 @@
 int main() {
     int number, i;
     unsigned long long factorial = 1;  // Use long long to handle large results
-     
-    printf("Mahesh Kumar Shrestha\n");
+      
     // Input from user
     printf("Enter a positive integer: ");
     scanf("%d", &number);

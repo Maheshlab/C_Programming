@@ -4,7 +4,6 @@
 int main()
 {
    char ch1, ch2;
-   printf("Mahesh Kumar Shrestha\n");
    
    printf("Enter first character:\n");
    ch1=getch();

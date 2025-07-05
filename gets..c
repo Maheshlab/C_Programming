@@ -4,8 +4,6 @@
 int main(){
     char ch;
     
-    printf("Mahesh Kumar Shrestha\n");
-    
     //Ask the user to enter a character
     printf("Enter any character:\n");
     ch = getchar(); //Read a single character from input
