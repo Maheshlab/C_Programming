@@ -1,6 +1,5 @@
 //Write a program to add elements of two 3X3 matrix
 #include<stdio.h>
-#include<conio.h>
 int main ()
 {
 int a[3][3],b[3][3],c[3][3],i,j;
