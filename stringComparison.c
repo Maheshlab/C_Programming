@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <conio.h>
 #include <string.h>
-void main()
+int main()
 {
     char string1[30],string2[40];
-    int i=0,value;
+    int value;
     printf("Mahesh Kumar Shrestha\n");
 	printf("Enter first string:\n");
 	scanf("%s", string1);
@@ -19,5 +18,5 @@ void main()
 	}else{
 	printf("Strings are unequal.\n");
 	}
-	getch();
+	return 0;
 }
