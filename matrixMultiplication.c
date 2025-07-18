@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+#include<math.h>
 int main()
 {
     int a[3][3], b[3][3], c[3][3], i, j, k;
@@ -49,6 +49,5 @@ int main()
         printf("\n");
     }
     
-    getch();
     return 0;
 }
