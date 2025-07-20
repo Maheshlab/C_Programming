@@ -5,13 +5,13 @@ int main(){
     char ch;
     
     //Ask the user to enter a character
-    printf("Enter any character:\n");
+  printf("Enter any character:\n");
     ch = getchar(); //Read a single character from input
     
     // Display the entered character
     printf("You entered:\n");
-    putchar(ch); // Output the same charactert
-    
+    putchar(ch); // Output the same character
+
     return 0;
 }
 
