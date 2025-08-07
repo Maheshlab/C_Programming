@@ -1,12 +1,12 @@
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 int main()
 {
-    char string[25];
-    printf("Enter the string you want to reverse:\n");
-    scanf("%s", string);
-    strrev(string);
-    printf("The reversed string is: %s\n", string);
+    char character[25];
+    printf("Mahesh Kumar Shrestha\n");
+    printf("Enter the character you want to reverse:\n");
+    scanf("%s", character);
+    strrev(character);
+    printf("The reversed character is: %s\n", character);
 return 0;
 }
