@@ -6,7 +6,7 @@ int main ()
     fib1 = 1;
     fib2 = 1;
     prev = fib1;
-    printf("K chha Krisha \n");
+    
     printf("Enter number upto which you want Fibonacci sequence:\n");
     scanf("%d", &num);
 
