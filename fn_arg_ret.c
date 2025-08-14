@@ -1,10 +1,10 @@
-//Function with arguments ans return value
+//Function with arguments and return value
 #include <stdio.h>
 
 //Function Declaration
 int add(int a, int b);
 
-////Main function
+//Main function
 int main()
 {
 int a, b, x;
