@@ -4,7 +4,7 @@ int main()
 {
     char string1[30],string2[40];
     int value;
-    printf("Mahesh Kumar Shrestha\n");
+
 	printf("Enter first string:\n");
 	scanf("%s", string1);
 	
